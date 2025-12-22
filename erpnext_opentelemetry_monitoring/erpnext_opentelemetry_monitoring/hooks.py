@@ -133,3 +133,17 @@ app_license = "mit"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+# Document Events
+# ---------------
+# Hook on document methods and events
+
+doc_events = {
+	"*": {
+		"after_insert": "erpnext_opentelemetry_monitoring.erpnext_opentelemetry_monitoring.metrics_hooks.on_insert",
+		"on_submit": "erpnext_opentelemetry_monitoring.erpnext_opentelemetry_monitoring.metrics_hooks.on_submit",
+	},
+	"Sales Order": {
+		"on_submit": "erpnext_opentelemetry_monitoring.erpnext_opentelemetry_monitoring.metrics_hooks.on_sales_order_submit",
+	}
+}
+
