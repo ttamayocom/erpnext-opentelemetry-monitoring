@@ -1,0 +1,8 @@
+{
+  "name": "erpnext-opentelemetry-monitoring",
+  "version": "0.0.1",
+  "description": "OpenTelemetry instrumentation and custom metrics for ERPNext",
+  "private": true,
+  "scripts": {}
+}
+
