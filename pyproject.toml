@@ -1,0 +1,16 @@
+[project]
+name = "erpnext_opentelemetry_monitoring"
+authors = [
+    { name = "TTamayo", email = "victor@ttamayo.com"}
+]
+description = "OpenTelemetry monitoring for ERPNext"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "erpnext_opentelemetry_monitoring"
