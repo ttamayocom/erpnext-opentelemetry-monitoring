@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "build": "echo 'No build required'",
-    "development": "echo 'No dev build required'"
-  }
+    "development": "echo 'No dev build required'",
+    "production": "echo 'No production build required'"
+  },
+  "dependencies": {}
 }
 
